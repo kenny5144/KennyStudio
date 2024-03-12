@@ -1,4 +1,3 @@
-"use client"
 import React from "react";
 import land1 from "../../../public/img/business/land1.jpg";
 import land2 from "../../../public/img/business/land2.jpg";
@@ -10,6 +9,10 @@ import portraits1 from "../../../public/img/business/portraits1.jpg";
 import portraits2 from "../../../public/img/business/portraits2.jpg";
 import portraits3 from "../../../public/img/business/portraits3.jpg";
 import Image from "next/image";
+export const metadata = {
+  title: " Business ",
+  description: " Explore our services for Business events. Let's bring your story to life!",
+};
 const page = () => {
   return (
     <div>
@@ -21,7 +24,7 @@ const page = () => {
         <div className="grid gap">
           <div>
             <Image
-            loading="lazy"
+             
               className="h-auto max-w-full rounded-lg"
               src={portraits1}
               alt=""
@@ -30,7 +33,7 @@ const page = () => {
           </div>
           <div>
             <Image
-            loading="lazy"
+             
               className="h-auto max-w-full rounded-lg"
               src= {land1}
               alt=""
@@ -38,7 +41,7 @@ const page = () => {
           </div>
           <div>
             <Image
-            loading="lazy"
+             
               className="h-auto max-w-full rounded-lg"
               src={portraits2}
               alt=""
@@ -46,7 +49,7 @@ const page = () => {
           </div>
           {/* <div>
             <Image
-            loading="lazy"
+             
               className="h-auto max-w-full rounded-lg"
               src={kay1}
               alt=""
@@ -56,7 +59,7 @@ const page = () => {
         <div className="grid gap">
           <div>
             <Image
-            loading="lazy"
+             
               className="h-auto max-w-full rounded-lg"
               src={land2}
               alt=""
@@ -64,7 +67,7 @@ const page = () => {
           </div>
           <div>
             <Image
-            loading="lazy"
+             
               className="h-auto max-w-full rounded-lg"
               src= {portraits3}
               alt=""
@@ -72,7 +75,7 @@ const page = () => {
           </div>
           <div>
             <Image
-            loading="lazy"
+             
               className="h-auto max-w-full rounded-lg"
               src={land4}
               alt=""
@@ -80,7 +83,7 @@ const page = () => {
           </div>
           {/* <div>
             <Image
-            loading="lazy"
+             
               className="h-auto max-w-full rounded-lg"
               src={shots}
               alt=""
@@ -90,7 +93,7 @@ const page = () => {
         <div className="grid gap">
           <div>
             <Image
-            loading="lazy"
+             
               className="h-auto max-w-full rounded-lg"
               src= {land5}
               alt=""
@@ -99,7 +102,7 @@ const page = () => {
           
           <div>
             <Image
-            loading="lazy"
+             
               className="h-auto max-w-full rounded-lg"
               src= {land6}
               alt=""
@@ -107,7 +110,7 @@ const page = () => {
           </div>
           <div>
             <Image
-            loading="lazy"
+             
               className="h-auto max-w-full rounded-lg"
               src= {land3}
               alt=""

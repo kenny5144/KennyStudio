@@ -1,4 +1,3 @@
-"use client"
 import React from 'react'
 import maria from "../../../public/img/lifestyles/maria.jpg"
 import maria1 from "../../../public/img/lifestyles/maria1.jpg"
@@ -11,6 +10,10 @@ import sade1 from "../../../public/img/lifestyles/sade1.jpg"
 import sade from "../../../public/img/lifestyles/sade.jpg"
 import taye from "../../../public/img/lifestyles/taye.jpg"
 import Image from 'next/image'
+export const metadata = {
+  title: " Lifestyle ",
+  description: "Explore our lifestyle photography and videography services. Let's capture your story in style. Contact us to get started!",
+};
 export default function page() {
   return (
     <>
@@ -21,7 +24,7 @@ export default function page() {
       <div className="grid gap-4">
         <div>
           <Image
-          loading="lazy"
+          
             className="h-auto max-w-full rounded-lg"
             src={ono}
             alt=""
@@ -30,7 +33,7 @@ export default function page() {
         </div>
         <div>
           <Image
-          loading="lazy"
+          
             className="h-auto max-w-full rounded-lg"
             src= {maria}
             alt=""
@@ -38,7 +41,7 @@ export default function page() {
         </div>
         <div>
           <Image
-          loading="lazy"
+          
             className="h-auto max-w-full rounded-lg"
             src={taye}
             alt=""
@@ -49,7 +52,7 @@ export default function page() {
       <div className="grid gap-4">
         <div>
           <Image
-          loading="lazy"
+          
             className="h-auto max-w-full rounded-lg"
             src={maria1}
             alt=""
@@ -57,7 +60,7 @@ export default function page() {
         </div>
         <div>
           <Image
-          loading="lazy"
+          
             className="h-auto max-w-full rounded-lg"
             src= {ono1}
             alt=""
@@ -66,7 +69,7 @@ export default function page() {
     
         <div>
           <Image
-          loading="lazy"
+          
             className="h-auto max-w-full rounded-lg"
             src={maria2}
             alt=""
@@ -76,7 +79,7 @@ export default function page() {
       <div className="grid gap-4">
         <div>
           <Image
-          loading="lazy"
+          
             className="h-auto max-w-full rounded-lg"
             src= {ono2}
             alt=""
@@ -85,7 +88,7 @@ export default function page() {
         
         <div>
           <Image
-          loading="lazy"
+          
             className="h-auto max-w-full rounded-lg"
             src= {sade }
             alt=""
@@ -93,7 +96,7 @@ export default function page() {
         </div>
         <div>
           <Image
-          loading="lazy"
+          
             className="h-auto max-w-full rounded-lg"
             src= {sade1}
             alt=""

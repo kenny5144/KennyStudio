@@ -1,8 +1,11 @@
-"use client"
+'use client'
 import React from 'react'
 import { useState, useRef } from 'react';
 import contact from "../../../public/img/homepageimages/contact.jpg";
 import Image from 'next/image';
+import emailjs from "@emailjs/browser";
+
+
 const page = () => {
     const [input, setInput] = useState({
         title: "",
@@ -75,7 +78,7 @@ const page = () => {
     
           <div className="-z-[1]  -top-[45px] relative ">
             <Image
-              loading="lazy"
+               
               className="w-screen"
               data-src={contact}
               src={contact}

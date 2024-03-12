@@ -1,17 +1,19 @@
-"use Client"
 import kenny1 from "../../../public/img/homepageimages/kenny1.jpg";
 import Image from "next/image";
-
+export const metadata = {
+  title: " About ",
+  description: "Learn about our journey, meet the team, and see why we're dedicated to bringing your vision to life. Welcome to Kenny Studios, where every moment matters.",
+};
 const page = () => {
   return (
     <>
       {/* <div className="w-screen bg-black-500  h-10px"></div> */}
-      <div className="flex mt-10 xl:mt-32 md:h-[80vh] lg:h-screen   m-auto items-center ">
+      <div className="flex  md:h-[80vh] lg:h-screen   m-auto items-center ">
         <div className="flex flex-col items-center">
           <h2 className="text-center md:mb-10 text-4xl">About Me</h2>
           <div className=" w-11/12  md:flex relative   justify-center m-auto md:m-0 mt-10">
             <Image
-            loading="lazy"
+             
               className="rounded-xl md:w-2/4"
               src={kenny1}
               alt="Image of me "

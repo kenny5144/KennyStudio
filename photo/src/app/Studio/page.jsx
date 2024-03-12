@@ -1,5 +1,4 @@
-"use client"
-import React from 'react'
+
 import image1c from "../../../public/img/homepageimages/image1c.jpg";
 import kay3 from "../../../public/img/homepageimages/kay3.jpg";
 import sele from "../../../public/img/homepageimages/sele.jpg";
@@ -19,7 +18,10 @@ import Image from 'next/image';
 import remembrance from "../../../public/img/homepageimages/remembrance.jpg";
 import kay1 from "../../../public/img/homepageimages/kay1.jpg";
 
-
+export const metadata = {
+  title: " Studio ",
+  description: "Discover Kenny Studios – Where Every Moment Tells a Story! Meet our passionate team and learn about our approach. Welcome to the heart of storytelling!",
+};
 const page = () => {
   return (
     <>
@@ -30,7 +32,7 @@ const page = () => {
       <div className="grid gap-4">
         <div>
           <Image
-          loading="lazy"
+           
             className="h-auto max-w-full rounded-lg"
             src={mek1}
             alt=""
@@ -39,7 +41,7 @@ const page = () => {
         </div>
         <div>
           <Image
-          loading="lazy"
+           
             className="h-auto max-w-full rounded-lg"
             src= {sel1}
             alt=""
@@ -47,7 +49,7 @@ const page = () => {
         </div>
         <div>
           <Image
-          loading="lazy"
+           
             className="h-auto max-w-full rounded-lg"
             src={mek2}
             alt=""
@@ -58,7 +60,7 @@ const page = () => {
       <div className="grid  gap-4">
         <div>
           <Image
-          loading="lazy"
+           
             className="h-auto max-w-full rounded-lg"
             src={sele}
             alt=""
@@ -66,7 +68,7 @@ const page = () => {
         </div>
         <div>
           <Image
-          loading="lazy"
+           
             className="h-auto max-w-full rounded-lg"
             src= {mek5}
             alt=""
@@ -74,7 +76,7 @@ const page = () => {
         </div>
         <div>
           <Image
-          loading="lazy"
+           
             className="h-auto max-w-full rounded-lg"
             src= {sel}
             alt=""
@@ -86,7 +88,7 @@ const page = () => {
       <div className="grid gap-4">
         <div>
           <Image
-          loading="lazy"
+           
             className="h-auto max-w-full rounded-lg"
             src= {mek6}
             alt=""
@@ -95,7 +97,7 @@ const page = () => {
         
         <div>
           <Image
-          loading="lazy"
+           
             className="h-auto max-w-full rounded-lg"
             src= {sel2 }
             alt=""
@@ -103,7 +105,7 @@ const page = () => {
         </div>
         <div>
           <Image
-          loading="lazy"
+           
             className="h-auto max-w-full rounded-lg"
             src= {mek3}
             alt=""
