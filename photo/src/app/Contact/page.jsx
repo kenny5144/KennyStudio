@@ -3,7 +3,7 @@ import React from 'react'
 import { useState, useRef } from 'react';
 import contact from "../../../public/img/homepageimages/contact.jpg";
 import Image from 'next/image';
-import emailjs from "@emailjs/browser";
+import emailjs from '@emailjs/browser';
 
 
 const page = () => {
