@@ -1,7 +1,6 @@
 "use client"
 import React from "react";
 import Image from "next/image";
-import { SpeedInsights } from "@vercel/speed-insights/next"
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Scrollbar,Autoplay, Navigation,  } from "swiper/modules";

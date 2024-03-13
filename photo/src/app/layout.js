@@ -1,5 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 import Nav from "@/Component/Nav";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -18,6 +20,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Nav/>
         {children}
+        <SpeedInsights/>
         </body>
     </html>
   );
