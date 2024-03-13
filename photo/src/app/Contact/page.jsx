@@ -7,23 +7,23 @@ import emailjs from '@emailjs/browser';
 
 
 const page = () => {
-    const [input, setInput] = useState({
-        title: "",
+    const [contactInput, setContactInput] = useState(
+      {title: "",
         email: "",
         date: "",
         text: "",
         budget:"",
-        cameAcross: "",
+        cameAcross: ""
       });
       const templateparams = {
-        form_name: input.title,
-        form_email: input.email,
+        form_name: contactInput.title,
+        form_email: contactInput.email,
         to_name: "kehinde ojo",
-        message:`hello my name is ${input.title} my email is ${input.email} my event date is ${input.date} . My budget for this event is ${input.budget} and some details about the shoot is:  ${input.text} i saw you from  ${input.cameAcross},`
+        message:`hello my name is ${contactInput.title} my email is ${contactInput.email} my event date is ${contactInput.date} . My budget for this event is ${contactInput.budget} and some details about the shoot is:  ${contactInput.text} i saw you from  ${contactInput.cameAcross},`
       };
       const handleChange = (e) => {
         const { name, value } = e.target;
-        setInput((prev) => {
+        setContactInput((prev) => {
           return { ...prev, [name]: value };
         });
       };
@@ -33,7 +33,7 @@ const page = () => {
         return inputValue.trim() !== "";
       };
       function handleSubmit(){
-        setInput({
+        setContactInput({
           title: "",
         email: "",
         date: "",
@@ -56,7 +56,7 @@ const page = () => {
             (result) => {
     
               setError("Your message was sent ");
-              setInput({
+              setContactInput({
               title: "",
               email: "",
               date: "",
@@ -109,13 +109,13 @@ const page = () => {
                     className="border-b w-96 py-1 focus:outline-none focus:border-purple-600 focus:border-b-2 transition-colors peer"
                     autoComplete="off"
                     onChange={(e) => handleChange(e)}
-                    value={input.title}
+                    value={contactInput.title}
                     required
                   />
                   <label
                     htmlFor="name"
                     className={`absolute left-0  text-gray-600 cursor-text transition-all ${
-                      isInputFilled(input.title)
+                      isInputFilled(contactInput.title)
                         ? "bottom-[1.6rem] text-xs text-purple-600"
                         : "peer-focus:text-xs peer-focus:-top-4 top-1 peer-focus:text-purple-600"
                     }`}
@@ -130,14 +130,14 @@ const page = () => {
                     id="Email"
                     className="border-b w-96 py-1 focus:outline-none focus:border-purple-600 focus:border-b-2 transition-colors peer"
                     autoComplete="off"
-                    value={input.email}
+                    value={contactInput.email}
                     onChange={(e) => handleChange(e)}
                     required
                   />
                   <label
                     htmlFor="Email"
                     className={`absolute left-0  text-gray-600 cursor-text transition-all ${
-                      isInputFilled(input.email)
+                      isInputFilled(contactInput.email)
                         ? "bottom-[1.6rem]  text-xs text-purple-600"
                         : "peer-focus:text-xs top-1 peer-focus:-top-4 peer-focus:text-purple-600"
                     }`}
@@ -152,14 +152,14 @@ const page = () => {
                     id="Text"
                     className="border-b w-96 py-1 focus:outline-none focus:border-purple-600 focus:border-b-2 transition-colors peer"
                     autoComplete="off"
-                    value={input.text}
+                    value={contactInput.text}
                     onChange={(e) => handleChange(e)}
                     required
                   />
                   <label
                     htmlFor="Text"
                     className={`absolute left-0  text-gray-600 cursor-text transition-all ${
-                      isInputFilled(input.text)
+                      isInputFilled(contactInput.text)
                         ? "bottom-[1.6rem]  text-xs text-purple-600"
                         : "peer-focus:text-xs peer-focus:-top-4 top-1 peer-focus:text-purple-600"
                     }`}
@@ -174,14 +174,14 @@ const page = () => {
                     id="budget"
                     className="border-b w-96 py-1 focus:outline-none focus:border-purple-600 focus:border-b-2 transition-colors peer"
                     autoComplete="off"
-                    value={input.budget}
+                    value={contactInput.budget}
                     onChange={(e) => handleChange(e)}
                     required
                   />
                   <label
                     htmlFor="Text"
                     className={`absolute left-0  text-gray-600 cursor-text transition-all ${
-                      isInputFilled(input.budget)
+                      isInputFilled(contactInput.budget)
                         ? "bottom-[1.6rem]  text-xs text-purple-600"
                         : "peer-focus:text-xs peer-focus:-top-4 top-1 peer-focus:text-purple-600"
                     }`}
@@ -196,7 +196,7 @@ const page = () => {
                     name="date"
                     id="date"
                     className="border-b data-[te-input-state-active]:placeholder:opacity-100 w-96 py-1 focus:outline-none focus:border-purple-600 focus:border-b-2 transition-colors peer"
-                    value={input.date}
+                    value={contactInput.date}
                     onChange={(e) => handleChange(e)}
                     required
     
@@ -204,7 +204,7 @@ const page = () => {
                   <label
                     htmlFor="Date"
                     className={`absolute left-0  text-gray-600 bottom-6 cursor-text transition-all ${
-                      isInputFilled(input.text)
+                      isInputFilled(contactInput.text)
                         ? "bottom-[1.6rem]  text-xs text-purple-600"
                         : "peer-focus:text-xs peer-focus:-top-4  peer-focus:text-purple-600"
                     }`}
@@ -220,13 +220,13 @@ const page = () => {
                     id="cameAcross"
                     className="border-b data-[te-input-state-active]:placeholder:opacity-100 w-96 py-1 focus:outline-none focus:border-purple-600 focus:border-b-2 transition-colors peer"
                     autoComplete="off"
-                    value={input.cameAcross}
+                    value={contactInput.cameAcross}
                     onChange={(e) => handleChange(e)}
                   />
                   <label
                     htmlFor="cameAcross"
                     className={`absolute left-0  text-gray-600 cursor-text transition-all ${
-                      isInputFilled(input.cameAcross)
+                      isInputFilled(contactInput.cameAcross)
                         ? "bottom-[1.6rem] text-xs text-purple-600"
                         : "peer-focus:text-xs peer-focus:-top-4 top-1 peer-focus:text-purple-600"
                     }`}
