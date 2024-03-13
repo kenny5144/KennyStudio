@@ -14,7 +14,7 @@ export const metadata = {
   title: " Lifestyle ",
   description: "Explore our lifestyle photography and videography services. Let's capture your story in style. Contact us to get started!",
 };
-export default function page() {
+export default function Page() {
   return (
     <>
     {/* <Navbar/> */}

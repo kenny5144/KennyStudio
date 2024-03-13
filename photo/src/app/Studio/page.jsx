@@ -22,7 +22,7 @@ export const metadata = {
   title: " Studio ",
   description: "Discover Kenny Studios – Where Every Moment Tells a Story! Meet our passionate team and learn about our approach. Welcome to the heart of storytelling!",
 };
-const page = () => {
+const Page = () => {
   return (
     <>
     {/* <Navbar/> */}
@@ -119,4 +119,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

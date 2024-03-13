@@ -6,7 +6,7 @@ import Image from 'next/image';
 import emailjs from '@emailjs/browser';
 
 
-const page = () => {
+const Page = () => {
     const [contactInput, setContactInput] = useState(
       {title: "",
         email: "",
@@ -247,4 +247,4 @@ const page = () => {
       );
 }
 
-export default page
+export default Page

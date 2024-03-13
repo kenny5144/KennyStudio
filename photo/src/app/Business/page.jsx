@@ -13,7 +13,7 @@ export const metadata = {
   title: " Business ",
   description: " Explore our services for Business events. Let's bring your story to life!",
 };
-const page = () => {
+const Page = () => {
   return (
     <div>
          <>
@@ -131,4 +131,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

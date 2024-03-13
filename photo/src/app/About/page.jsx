@@ -2,7 +2,7 @@
 import kenny1 from "../../../public/img/homepageimages/kenny1.jpg";
 import Image from "next/image";
 
-const page = () => {
+const Page = () => {
   return (
     <>
       {/* <div className="w-screen bg-black-500  h-10px"></div> */}
@@ -53,4 +53,4 @@ const page = () => {
   );
 }
 
-export default page
+export default Page

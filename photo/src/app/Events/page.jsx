@@ -19,7 +19,7 @@ export const metadata = {
   title: " Events ",
   description: "Capture the Moment with Kenny Studios! From weddings to corporate gatherings, trust us to immortalize your special events. Contact us now to book your session!",
 };
-const page = () => {
+const Page = () => {
   return (
     <>
       {/* <Navbar/> */}
@@ -163,4 +163,4 @@ const page = () => {
   );
 }
 
-export default page
+export default Page
