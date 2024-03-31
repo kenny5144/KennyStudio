@@ -14,7 +14,7 @@ const Page = () => {
              
               className="rounded-xl md:w-2/4"
               src={kenny1}
-              alt="Image of me "
+              alt="Phtographer "
             />
             <div className="ml-2 flex  items-center">
               <section>

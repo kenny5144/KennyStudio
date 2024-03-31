@@ -12,7 +12,7 @@ import taye from "../../../public/img/lifestyles/taye.jpg"
 import Image from 'next/image'
 export const metadata = {
   title: " Lifestyle ",
-  description: "Explore our lifestyle photography and videography services. Let's capture your story in style. Contact us to get started!",
+  description: "Explore our lifestyle and fashion photography. Let's capture your LifeSytle shoot today. Contact us to get started!",
 };
 export default function Page() {
   return (
@@ -27,7 +27,7 @@ export default function Page() {
           
             className="h-auto max-w-full rounded-lg"
             src={ono}
-            alt=""
+            alt="Lifestyle Shoot"
           />
           
         </div>
@@ -36,7 +36,7 @@ export default function Page() {
           
             className="h-auto max-w-full rounded-lg"
             src= {maria}
-            alt=""
+            alt="Fashion Shoot"
           />
         </div>
         <div>
@@ -44,7 +44,7 @@ export default function Page() {
           
             className="h-auto max-w-full rounded-lg"
             src={taye}
-            alt=""
+            alt="Fall Shoot"
           />
         </div>
 
@@ -55,7 +55,7 @@ export default function Page() {
           
             className="h-auto max-w-full rounded-lg"
             src={maria1}
-            alt=""
+            alt="Lifestyle Shoot"
           />
         </div>
         <div>
@@ -63,7 +63,7 @@ export default function Page() {
           
             className="h-auto max-w-full rounded-lg"
             src= {ono1}
-            alt=""
+            alt="Lifestyle Shoot"
           />
         </div>
     
@@ -72,7 +72,7 @@ export default function Page() {
           
             className="h-auto max-w-full rounded-lg"
             src={maria2}
-            alt=""
+            alt="Lifestyle Shoot"
           />
         </div>
       </div>
@@ -82,7 +82,7 @@ export default function Page() {
           
             className="h-auto max-w-full rounded-lg"
             src= {ono2}
-            alt=""
+            alt="Lifestyle Shoot"
           />
         </div>
         
@@ -91,7 +91,7 @@ export default function Page() {
           
             className="h-auto max-w-full rounded-lg"
             src= {sade }
-            alt=""
+            alt="Lifestyle Shoot"
           />
         </div>
         <div>
@@ -99,7 +99,7 @@ export default function Page() {
           
             className="h-auto max-w-full rounded-lg"
             src= {sade1}
-            alt=""
+            alt="Lifestyle Shoot"
           />
         </div>
        

@@ -19,14 +19,16 @@ import remembrance from "../../../public/img/homepageimages/remembrance.jpg";
 import kay1 from "../../../public/img/homepageimages/kay1.jpg";
 
 export const metadata = {
-  title: " Studio ",
-  description: "Discover Kenny Studios – Where Every Moment Tells a Story! Meet our passionate team and learn about our approach. Welcome to the heart of storytelling!",
+  title: " Studio Photoshoots ",
+  description: "Discover Kenny Studios – wheather you are looking to capture your birthday shoots or you are just feeling confident at kenny studios we are here to portray your beauty ",
 };
 const Page = () => {
   return (
     <>
     {/* <Navbar/> */}
     <h1 className="text-center text-5xl mb-4">Studio </h1>
+
+    <h2 className=" text-center   text-2xl mt-5 mb-10">Birthday shoot, family shoot, headshots and so on </h2>
 
     <div className="grid  md:grid-cols-2 lg:grid-cols-3 gap-4">
       <div className="grid gap-4">
@@ -35,7 +37,7 @@ const Page = () => {
            
             className="h-auto max-w-full rounded-lg"
             src={mek1}
-            alt=""
+            alt=" Birthday  PhotoShoot"
           />
           
         </div>
@@ -44,7 +46,7 @@ const Page = () => {
            
             className="h-auto max-w-full rounded-lg"
             src= {sel1}
-            alt=""
+            alt=" Birthday  PhotoShoot"
           />
         </div>
         <div>
@@ -52,7 +54,7 @@ const Page = () => {
            
             className="h-auto max-w-full rounded-lg"
             src={mek2}
-            alt=""
+            alt=" Studio  PhotoShoot"
           />
         </div>
       
@@ -63,7 +65,7 @@ const Page = () => {
            
             className="h-auto max-w-full rounded-lg"
             src={sele}
-            alt=""
+            alt=" Studio  PhotoShoot"
           />
         </div>
         <div>
@@ -71,7 +73,7 @@ const Page = () => {
            
             className="h-auto max-w-full rounded-lg"
             src= {mek5}
-            alt=""
+            alt=" Studio  PhotoShoot"
           />
         </div>
         <div>
@@ -79,7 +81,7 @@ const Page = () => {
            
             className="h-auto max-w-full rounded-lg"
             src= {sel}
-            alt=""
+            alt=" Studio  PhotoShoot"
           />
         </div>
 
@@ -91,7 +93,7 @@ const Page = () => {
            
             className="h-auto max-w-full rounded-lg"
             src= {mek6}
-            alt=""
+            alt=" Studio  PhotoShoot"
           />
         </div>
         
@@ -100,7 +102,7 @@ const Page = () => {
            
             className="h-auto max-w-full rounded-lg"
             src= {sel2 }
-            alt=""
+            alt=" Studio  PhotoShoot"
           />
         </div>
         <div>
@@ -108,7 +110,7 @@ const Page = () => {
            
             className="h-auto max-w-full rounded-lg"
             src= {mek3}
-            alt=""
+            alt=" Studio  PhotoShoot"
           />
         </div>
       

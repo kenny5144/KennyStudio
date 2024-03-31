@@ -12,7 +12,7 @@ export const metadata = {
     default: "Kennys Studios",
     template : "%s - Kennys Studios"
   },
-  description: "Welcome to Kenny Studios – Where Moments Come Alive! Discover the art of storytelling through our captivating photography . From Studio to  events, i am here to bring  your vision to life. Explore our portfolio and start creating unforgettable memories today!",
+  description: "Welcome to Kenny Studios photography  – Where Moments Come Alive! Discover the art of storytelling through our captivating photography . From Studio to  events, i am here to bring  your vision to life. Explore our portfolio and start creating unforgettable memories today!",
 };
 
 export default function RootLayout({ children }) {

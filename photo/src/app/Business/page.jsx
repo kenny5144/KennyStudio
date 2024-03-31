@@ -27,7 +27,7 @@ const Page = () => {
              
               className="h-auto max-w-full rounded-lg"
               src={portraits1}
-              alt=""
+              alt="Business photoshoot"
             />
             
           </div>
@@ -36,7 +36,7 @@ const Page = () => {
              
               className="h-auto max-w-full rounded-lg"
               src= {land1}
-              alt=""
+              alt="Business photoshoot"
             />
           </div>
           <div>
@@ -44,7 +44,7 @@ const Page = () => {
              
               className="h-auto max-w-full rounded-lg"
               src={portraits2}
-              alt=""
+              alt="Business photoshoot"
             />
           </div>
           {/* <div>
@@ -52,7 +52,7 @@ const Page = () => {
              
               className="h-auto max-w-full rounded-lg"
               src={kay1}
-              alt=""
+              alt="Business photoshoot"
             />
           </div> */}
         </div>
@@ -62,7 +62,7 @@ const Page = () => {
              
               className="h-auto max-w-full rounded-lg"
               src={land2}
-              alt=""
+              alt="Business photoshoot"
             />
           </div>
           <div>
@@ -70,7 +70,7 @@ const Page = () => {
              
               className="h-auto max-w-full rounded-lg"
               src= {portraits3}
-              alt=""
+              alt="Business photoshoot"
             />
           </div>
           <div>
@@ -78,7 +78,7 @@ const Page = () => {
              
               className="h-auto max-w-full rounded-lg"
               src={land4}
-              alt=""
+              alt="Business photoshoot"
             />
           </div>
           {/* <div>
@@ -86,7 +86,7 @@ const Page = () => {
              
               className="h-auto max-w-full rounded-lg"
               src={shots}
-              alt=""
+              alt="Business photoshoot"
             />
           </div> */}
         </div>
@@ -96,7 +96,7 @@ const Page = () => {
              
               className="h-auto max-w-full rounded-lg"
               src= {land5}
-              alt=""
+              alt="Business photoshoot"
             />
           </div>
           
@@ -105,7 +105,7 @@ const Page = () => {
              
               className="h-auto max-w-full rounded-lg"
               src= {land6}
-              alt=""
+              alt="Business photoshoot"
             />
           </div>
           <div>
@@ -113,14 +113,14 @@ const Page = () => {
              
               className="h-auto max-w-full rounded-lg"
               src= {land3}
-              alt=""
+              alt="Coporate photoshoot"
             />
           </div>
           {/* <div>
             <Image
               className="h-auto max-w-full rounded-lg"
               src= {kay3}
-              alt=""
+              alt="Business photoshoot"
             />
           </div> */}
         </div>
