@@ -19,7 +19,9 @@ import thirtythbirdthay from "../../public/img/homepageimages/thirtythbirdthay.j
 import thirtybirthday from "../../public/img/homepageimages/thirtybirthday.jpg";
 import babyshowershot1 from "../../public/img/homepageimages/babyshowershot1.jpg";
 import remembrance from "../../public/img/homepageimages/remembrance.jpg";
-import kay1 from "../../public/img/homepageimages/kay1.jpg";
+import prom1 from "../../public/img/prom/prom1.jpg";
+import zoe2 from "../../public/img/Grad/zoe2.jpg";
+
 import long from "../../public/img/homepageimages/long.jpg";
 import ContactLink from "@/Component/ContactLink";
 const element = (
@@ -87,9 +89,7 @@ export default function Home() {
         <SwiperSlide>
           <Image className="w-screen" src={babyshowershot1} alt="BabyShower photoShoot" />
         </SwiperSlide>
-        <SwiperSlide>
-          <Image className="w-screen" src={kay3} alt="Podcast Photoshoot" />
-        </SwiperSlide>
+       
         <SwiperSlide>
           <Image className="w-screen" src={babyshowershot2} alt="BabyShower photoshoot" />
         </SwiperSlide>
@@ -165,15 +165,15 @@ export default function Home() {
               <Image
                
                 className="rounded-lg w-screen  mt-4 md:w-96 md:h-auto image h-auto"
-                src={kay1}
+                src={zoe2}
                 alt="Buisness photography"
               />
               <div className="middle">
                 <Link
                   className="text-4xl hover:underline text-bold"
-                  href="/Business"
+                  href="/Graduation"
                 >
-                  Business
+                  Graduation And Prom
                 </Link>
               </div>
             </div>

@@ -70,7 +70,7 @@ const Nav = () => {
           </li>
           {/* code for th dropdown button on computer */}
           {portfolioisOpen && (
-            <div className="absolute  top-10 m-auto w-32 gap-10 rounded-lg right-[5rem] h-auto p-4  bg-black">
+            <div className="absolute  top-10 m-auto w-40 gap-10 rounded-lg right-[5rem] h-auto p-4  bg-black">
               <div>
                 <ul className="text-orange-400  text-center">
                   <Link
@@ -127,7 +127,7 @@ const Nav = () => {
                       setPortfolioIsOpen(false);
                     }}
                   >
-                    Business
+                    Grad/Prom
                   </Link>
                 </ul>
               </div>
@@ -190,7 +190,7 @@ const Nav = () => {
             </li>
             {/* code for the portfolio  dropdown button on mobile device  */}
             {portfolioisOpen && (
-              <div className=" bg-black w-44  gap-5 rounded-xl h-auto m-auto p-9 absolute ">
+              <div className=" bg-black w-[12rem]  gap-5 rounded-xl h-auto m-auto p-9 absolute ">
                 <div>
                   <ul className="text-orange-400 gap-2 text-center flex flex-col ">
                     <Link
@@ -236,9 +236,9 @@ const Nav = () => {
                       Lifestyle
                     </Link>
                     <Link
-                      href="/Business"
+                      href="/Graduation"
                       className={
-                        pathname === "/Business"
+                        pathname === "/Graduation"
                           ? "md:text-2xl cursor-pointer  text-green-600"
                           : "text-orange-400 cursor-pointer md:text-2xl"
                       }
@@ -247,11 +247,11 @@ const Nav = () => {
                         setPortfolioIsOpen(false);
                       }}
                     >
-                      Business
+                      Grad/Prom
                     </Link>
                   </ul>
 
-                  <hr className="w-40 ml-[-30%] mt-4" />
+                  <hr className="w-[12rem] ml-[-30%] mt-4" />
                   <button
                     className="text-orange-400 flex justify-center mt-2 cursor-pointer md:text-2xl"
                     onClick={() => {

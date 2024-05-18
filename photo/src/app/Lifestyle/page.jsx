@@ -9,6 +9,12 @@ import ono from "../../../public/img/lifestyles/ono.jpg"
 import sade1 from "../../../public/img/lifestyles/sade1.jpg"
 import sade from "../../../public/img/lifestyles/sade.jpg"
 import taye from "../../../public/img/lifestyles/taye.jpg"
+import sal from "../../../public/img/lifestyles/sal.jpg"
+import sal1 from "../../../public/img/lifestyles/sal1.jpg"
+import sal2 from "../../../public/img/lifestyles/sal2.jpg"
+import sal3 from "../../../public/img/lifestyles/sal3.jpg"
+import sal4 from "../../../public/img/lifestyles/sal4.jpg"
+import sal5 from "../../../public/img/lifestyles/sal5.jpg"
 import Image from 'next/image'
 export const metadata = {
   title: " Lifestyle ",
@@ -35,7 +41,7 @@ export default function Page() {
           <Image
           
             className="h-auto max-w-full rounded-lg"
-            src= {maria}
+            src= {sal5}
             alt="Fashion Shoot"
           />
         </div>
@@ -54,7 +60,7 @@ export default function Page() {
           <Image
           
             className="h-auto max-w-full rounded-lg"
-            src={maria1}
+            src={sal}
             alt="Lifestyle Shoot"
           />
         </div>
