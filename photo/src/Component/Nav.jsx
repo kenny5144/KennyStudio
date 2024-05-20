@@ -117,7 +117,7 @@ const Nav = () => {
                   </Link>
                   <br />
                   <Link
-                    href="/Business"
+                    href="/Graduation"
                     className={
                       pathname === "/Business"
                         ? "md:text-2xl cursor-pointer  text-green-600"
