@@ -48,7 +48,6 @@ export default function Home() {
           clickable: true,
         }}
         
-        navigation={true}
         modules={[Scrollbar, Autoplay,Navigation]}
         className="mySwiper"
       >
