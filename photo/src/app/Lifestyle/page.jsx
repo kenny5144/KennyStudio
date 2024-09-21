@@ -31,7 +31,7 @@ export default function Page() {
         <div>
           <Image
           
-            className="h-auto max-w-full rounded-lg"
+            className="h-auto max-w-full pointer-events-none rounded-lg"
             src={ono}
             alt="Lifestyle Shoot"
           />
@@ -40,7 +40,7 @@ export default function Page() {
         <div>
           <Image
           
-            className="h-auto max-w-full rounded-lg"
+            className="h-auto max-w-full pointer-events-none rounded-lg"
             src= {sal5}
             alt="Fashion Shoot"
           />
@@ -48,7 +48,7 @@ export default function Page() {
         <div>
           <Image
           
-            className="h-auto max-w-full rounded-lg"
+            className="h-auto max-w-full pointer-events-none rounded-lg"
             src={taye}
             alt="Fall Shoot"
           />
@@ -59,7 +59,7 @@ export default function Page() {
         <div>
           <Image
           
-            className="h-auto max-w-full rounded-lg"
+            className="h-auto max-w-full pointer-events-none rounded-lg"
             src={sal}
             alt="Lifestyle Shoot"
           />
@@ -67,7 +67,7 @@ export default function Page() {
         <div>
           <Image
           
-            className="h-auto max-w-full rounded-lg"
+            className="h-auto max-w-full pointer-events-none rounded-lg"
             src= {ono1}
             alt="Lifestyle Shoot"
           />
@@ -76,7 +76,7 @@ export default function Page() {
         <div>
           <Image
           
-            className="h-auto max-w-full rounded-lg"
+            className="h-auto max-w-full pointer-events-none rounded-lg"
             src={maria2}
             alt="Lifestyle Shoot"
           />
@@ -86,7 +86,7 @@ export default function Page() {
         <div>
           <Image
           
-            className="h-auto max-w-full rounded-lg"
+            className="h-auto max-w-full pointer-events-none rounded-lg"
             src= {ono2}
             alt="Lifestyle Shoot"
           />
@@ -95,7 +95,7 @@ export default function Page() {
         <div>
           <Image
           
-            className="h-auto max-w-full rounded-lg"
+            className="h-auto max-w-full pointer-events-none rounded-lg"
             src= {sade }
             alt="Lifestyle Shoot"
           />
@@ -103,7 +103,7 @@ export default function Page() {
         <div>
           <Image
           
-            className="h-auto max-w-full rounded-lg"
+            className="h-auto max-w-full pointer-events-none rounded-lg"
             src= {sade1}
             alt="Lifestyle Shoot"
           />
