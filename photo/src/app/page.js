@@ -9,9 +9,6 @@ import "swiper/css/scrollbar"
 import "swiper/css";
 import image1c from "../../public/img/homepageimages/image1c.jpg";
 import shots from "../../public/img/homepageimages/shots.jpg";
-import kay3 from "../../public/img/homepageimages/kay3.jpg";
-import maria from "../../public/img/homepageimages/maria.jpg";
-import selecover from "../../public/img/homepageimages/selecover.jpg";
 import baba from "../../public/img/homepageimages/baba.jpg";
 import short from "../../public/img/events/short.jpg"
 import babyshowershot2 from "../../public/img/homepageimages/babyshowershot2.jpg";
@@ -19,8 +16,9 @@ import thirtythbirdthay from "../../public/img/homepageimages/thirtythbirdthay.j
 import thirtybirthday from "../../public/img/homepageimages/thirtybirthday.jpg";
 import babyshowershot1 from "../../public/img/homepageimages/babyshowershot1.jpg";
 import remembrance from "../../public/img/homepageimages/remembrance.jpg";
-import prom1 from "../../public/img/prom/prom1.jpg";
 import zoe2 from "../../public/img/Grad/zoe2.jpg";
+import brandphotoshoot from "../../public/img/studio/brandphotoshoot.jpg";
+import sal from "../../public/img/lifestyles/sal.jpg";
 
 import long from "../../public/img/homepageimages/long.jpg";
 import ContactLink from "@/Component/ContactLink";
@@ -99,7 +97,7 @@ export default function Home() {
       </Swiper>
 
       <div className="w-100%  absolute -z-[1] md:relative md:z-[1] justify-center m-auto h-[75rem]">
-        {/* <h1 className="text-center  text-bold text-3xl mt-5 mb-4 "> My Work</h1> */}
+ 
         <h3 className="text-center  text-bold text-3xl mt-5 mb-10">
           A Glimpse Into My Artistic Narrative
         </h3>
@@ -110,7 +108,7 @@ export default function Home() {
               <Image
                
                 className=" rounded-lg w-screen md:w-96 md:h-auto  image h-auto"
-                src={maria}
+                src={sal}
                 alt="Lifestlye Photography"
               />
 
@@ -147,7 +145,7 @@ export default function Home() {
               <Image
                
                 className="rounded-lg w-screen mt-2 md:mt-0 image md:w-96 md:h-auto h-auto"
-                src={selecover}
+                src={brandphotoshoot}
                 alt="Studio photography"
               />
               <div className="middle">
