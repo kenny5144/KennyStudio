@@ -1,7 +1,7 @@
-'use client'
+"use client";
 import kenny1 from "../../../public/img/homepageimages/kenny1.jpg";
 import Image from "next/image";
-
+import me from "../../../public/img/homepageimages/me.jpg";
 const Page = () => {
   return (
     <>
@@ -11,9 +11,8 @@ const Page = () => {
           <h2 className="text-center md:mb-10 text-4xl">About Me</h2>
           <div className=" w-11/12  md:flex relative   justify-center m-auto md:m-0 mt-10">
             <Image
-             
               className="rounded-xl md:w-2/4"
-              src={kenny1}
+              src={me}
               alt="Phtographer "
             />
             <div className="ml-2 flex  items-center">
@@ -22,8 +21,9 @@ const Page = () => {
                   {"So Who am I?"}
                 </h2>
                 <p className="md:w-46 md:ml-2 leading-relaxed mt-8">
-                {"My name is Kehinde Ojo.I am a photographer who loves freezing moments in time. Photography is about capturing the genuine smiles, the unspoken emotions, and the fleeting moments that make life so beautiful, and that is why at KennyStudios i believe in the power of photography to capture the unseen. Our passion is to create meaningful images that resonate with you, your family, or your business. I am committed to preserving your life's milestones while placing your comfort and satisfaction at the forefront."}
-
+                  {
+                    "My name is Kehinde Ojo.I am a photographer who loves freezing moments in time. Photography is about capturing the genuine smiles, the unspoken emotions, and the fleeting moments that make life so beautiful, and that is why at KennyStudios i believe in the power of photography to capture the unseen. Our passion is to create meaningful images that resonate with you, your family, or your business. I am committed to preserving your life's milestones while placing your comfort and satisfaction at the forefront."
+                  }
                 </p>
               </section>
             </div>
@@ -51,6 +51,6 @@ const Page = () => {
       </div>
     </>
   );
-}
+};
 
-export default Page
+export default Page;

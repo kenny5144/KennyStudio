@@ -23,7 +23,11 @@ const Nav = () => {
   return (
     <header>
       <nav
-        className={ pathname === "/" || pathname === "/Contact" ?"w-full   md:px-2 mt-1 flex justify-between absolute z-10 " :"w-full   md:px-2 mt-1 flex justify-between  "}
+        className={
+          pathname === "/" || pathname === "/Contact"
+            ? "w-full   md:px-2 mt-1 flex justify-between absolute z-10 "
+            : "w-full   md:px-2 mt-1 flex justify-between  "
+        }
       >
         <Link
           href="/"
@@ -34,13 +38,13 @@ const Nav = () => {
         >
           <Image
             src={Logo}
-            height={50}
+            height={30}
             //   width={50}
 
             alt="Kennys Studios logo"
           />
         </Link>
-        <ul className="hidden md:flex md:space-x-4">
+        <ul className="hidden md:flex  md:space-x-4">
           <Link
             href="/About"
             onClick={() => {
@@ -49,8 +53,8 @@ const Nav = () => {
             }}
             className={
               pathname === "/About"
-                ? "md:text-2xl cursor-pointer  text-green-600"
-                : "text-orange-400 cursor-pointer md:text-2xl"
+                ? " cursor-pointer  text-green-600"
+                : "text-orange-400 cursor-pointer text-xl "
             }
           >
             About
@@ -61,8 +65,8 @@ const Nav = () => {
               pathname === "/Studio" ||
               pathname === "/Events" ||
               pathname === "/Business"
-                ? "md:text-2xl cursor-pointer  text-green-600"
-                : "text-orange-400 cursor-pointer md:text-2xl"
+                ? "text-xl cursor-pointer  text-green-600"
+                : "text-orange-400 cursor-pointer text-xl"
             }
             onClick={portfoliodrop}
           >
@@ -77,8 +81,8 @@ const Nav = () => {
                     href="/Events"
                     className={
                       pathname === "/Events"
-                        ? "md:text-2xl cursor-pointer  text-green-600"
-                        : "text-orange-400 cursor-pointer md:text-2xl"
+                        ? "text-xl cursor-pointer  text-green-600"
+                        : "text-orange-400 cursor-pointer text-xl"
                     }
                     onClick={() => {
                       navigate("/event");
@@ -92,8 +96,8 @@ const Nav = () => {
                     href="/Studio"
                     className={
                       pathname === "/Studio"
-                        ? "md:text-2xl cursor-pointer  text-green-600"
-                        : "text-orange-400 cursor-pointer md:text-2xl"
+                        ? "text-xl cursor-pointer  text-green-600"
+                        : "text-orange-400 cursor-pointer text-xl"
                     }
                     onClick={() => {
                       setPortfolioIsOpen(false);
@@ -106,8 +110,8 @@ const Nav = () => {
                     href="/Lifestyle"
                     className={
                       pathname === "/Lifestyle"
-                        ? "md:text-2xl cursor-pointer  text-green-600"
-                        : "text-orange-400 cursor-pointer md:text-2xl"
+                        ? "text-xl cursor-pointer  text-green-600"
+                        : "text-orange-400 cursor-pointer text-xl"
                     }
                     onClick={() => {
                       setPortfolioIsOpen(false);
@@ -120,8 +124,8 @@ const Nav = () => {
                     href="/Graduation"
                     className={
                       pathname === "/Business"
-                        ? "md:text-2xl cursor-pointer  text-green-600"
-                        : "text-orange-400 cursor-pointer md:text-2xl"
+                        ? "text-xl cursor-pointer  text-green-600"
+                        : "text-orange-400 cursor-pointer text-xl"
                     }
                     onClick={() => {
                       setPortfolioIsOpen(false);
@@ -142,8 +146,8 @@ const Nav = () => {
             }}
             className={
               pathname === "/Contact"
-                ? "md:text-2xl cursor-pointer  text-green-600"
-                : "text-orange-400 cursor-pointer md:text-2xl"
+                ? "text-xl cursor-pointer  text-green-600"
+                : "text-orange-400 cursor-pointer text-xl"
             }
           >
             Contact
@@ -172,8 +176,8 @@ const Nav = () => {
               href="/About"
               className={
                 pathname === "/About"
-                  ? "md:text-2xl cursor-pointer  text-green-600"
-                  : "text-orange-400 cursor-pointer md:text-2xl"
+                  ? "text-xl cursor-pointer  text-green-600"
+                  : "text-orange-400 cursor-pointer text-xl"
               }
               onClick={() => {
                 setIsOpen(false);
@@ -183,7 +187,7 @@ const Nav = () => {
               About
             </Link>
             <li
-              className="text-orange-400 cursor-pointer md:text-2xl"
+              className="text-orange-400 cursor-pointer text-xl"
               onClick={portfoliodrop}
             >
               Portfolio
@@ -197,8 +201,8 @@ const Nav = () => {
                       href="/Events"
                       className={
                         pathname === "/Events"
-                          ? "md:text-2xl cursor-pointer  text-green-600"
-                          : "text-orange-400 cursor-pointer md:text-2xl"
+                          ? "text-xl cursor-pointer  text-green-600"
+                          : "text-orange-400 cursor-pointer text-xl"
                       }
                       onClick={() => {
                         setIsOpen(false);
@@ -211,8 +215,8 @@ const Nav = () => {
                       href="/Studio"
                       className={
                         pathname === "/Studio"
-                          ? "md:text-2xl cursor-pointer  text-green-600"
-                          : "text-orange-400 cursor-pointer md:text-2xl"
+                          ? "text-xl cursor-pointer  text-green-600"
+                          : "text-orange-400 cursor-pointer text-xl"
                       }
                       onClick={() => {
                         setIsOpen(false);
@@ -225,8 +229,8 @@ const Nav = () => {
                       href="/Lifestyle"
                       className={
                         pathname === "/Lifestyle"
-                          ? "md:text-2xl cursor-pointer  text-green-600"
-                          : "text-orange-400 cursor-pointer md:text-2xl"
+                          ? "text-xl cursor-pointer  text-green-600"
+                          : "text-orange-400 cursor-pointer text-xl"
                       }
                       onClick={() => {
                         setIsOpen(false);
@@ -239,8 +243,8 @@ const Nav = () => {
                       href="/Graduation"
                       className={
                         pathname === "/Graduation"
-                          ? "md:text-2xl cursor-pointer  text-green-600"
-                          : "text-orange-400 cursor-pointer md:text-2xl"
+                          ? "text-xl cursor-pointer  text-green-600"
+                          : "text-orange-400 cursor-pointer text-xl"
                       }
                       onClick={() => {
                         setIsOpen(false);
@@ -253,7 +257,7 @@ const Nav = () => {
 
                   <hr className="w-[12rem] ml-[-30%] mt-4" />
                   <button
-                    className="text-orange-400 flex justify-center mt-2 cursor-pointer md:text-2xl"
+                    className="text-orange-400 flex justify-center mt-2 cursor-pointer text-xl"
                     onClick={() => {
                       setPortfolioIsOpen(false);
                     }}
@@ -267,8 +271,8 @@ const Nav = () => {
               href="/Contact"
               className={
                 pathname === "/Contact"
-                  ? "md:text-2xl cursor-pointer  text-green-600"
-                  : "text-orange-400 cursor-pointer md:text-2xl"
+                  ? "text-xl cursor-pointer  text-green-600"
+                  : "text-orange-400 cursor-pointer text-xl"
               }
               onClick={() => {
                 navigate("/contact");
