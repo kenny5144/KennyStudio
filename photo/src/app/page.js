@@ -1,16 +1,16 @@
-"use client"
+"use client";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Scrollbar,Autoplay, Navigation,  } from "swiper/modules";
-import "swiper/css/navigation"
-import "swiper/css/scrollbar"
+import { Scrollbar, Autoplay, Navigation } from "swiper/modules";
+import "swiper/css/navigation";
+import "swiper/css/scrollbar";
 import "swiper/css";
 import image1c from "../../public/img/homepageimages/image1c.jpg";
 import shots from "../../public/img/homepageimages/shots.jpg";
 import baba from "../../public/img/homepageimages/baba.jpg";
-import short from "../../public/img/events/short.jpg"
+import short from "../../public/img/events/short.jpg";
 import babyshowershot2 from "../../public/img/homepageimages/babyshowershot2.jpg";
 import thirtythbirdthay from "../../public/img/homepageimages/thirtythbirdthay.jpg";
 import thirtybirthday from "../../public/img/homepageimages/thirtybirthday.jpg";
@@ -19,8 +19,9 @@ import remembrance from "../../public/img/homepageimages/remembrance.jpg";
 import zoe2 from "../../public/img/Grad/zoe2.jpg";
 import brandphotoshoot from "../../public/img/studio/brandphotoshoot.jpg";
 import sal from "../../public/img/lifestyles/sal.jpg";
-
 import long from "../../public/img/homepageimages/long.jpg";
+import wedding from "../../public/img/homepageimages/wedding.jpg";
+
 import ContactLink from "@/Component/ContactLink";
 const element = (
   <svg xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 448 512">
@@ -32,9 +33,9 @@ export default function Home() {
   return (
     <>
       <Swiper
-      scrollbar={{
-        hide: false,
-      }}
+        scrollbar={{
+          hide: false,
+        }}
         spaceBetween={30}
         centeredSlides={true}
         loop={true}
@@ -45,24 +46,38 @@ export default function Home() {
         pagination={{
           clickable: true,
         }}
-        
-        modules={[Scrollbar, Autoplay,Navigation]}
+        modules={[Scrollbar, Autoplay, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide >
+        <SwiperSlide>
           <Image className="w-screen" src={long} alt="wedding photography" />
         </SwiperSlide>
-        <SwiperSlide >
+        <SwiperSlide>
+          <Image className="w-screen" src={wedding} alt="Event photography" />
+        </SwiperSlide>
+        <SwiperSlide>
           <Image className="w-screen" src={short} alt="Event photography" />
         </SwiperSlide>
         <SwiperSlide>
-          <Image className="w-screen" src={thirtybirthday} alt="Event photography" />
+          <Image
+            className="w-screen"
+            src={thirtybirthday}
+            alt="Event photography"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <Image className="w-screen" src={thirtythbirdthay} alt="Event photography" />
+          <Image
+            className="w-screen"
+            src={thirtythbirdthay}
+            alt="Event photography"
+          />
         </SwiperSlide>
         <SwiperSlide className="relative">
-          <Image  className="w-full absolute flex flex-col items-center mt- justify-center" src={image1c} alt="" />
+          <Image
+            className="w-full absolute flex flex-col items-center mt- justify-center"
+            src={image1c}
+            alt=""
+          />
           {/* <div className="absolute m-auto bottom flex items-center justify-center text-center">
             <div className="color-white text-center">
               <p className="text-xl font-bold text-white w-4/5 mx-auto">
@@ -84,20 +99,30 @@ export default function Home() {
           <Image className="w-screen" src={shots} alt="Wedding photoshoot" />
         </SwiperSlide>
         <SwiperSlide>
-          <Image className="w-screen" src={babyshowershot1} alt="BabyShower photoShoot" />
+          <Image
+            className="w-screen"
+            src={babyshowershot1}
+            alt="BabyShower photoShoot"
+          />
         </SwiperSlide>
-       
+
         <SwiperSlide>
-          <Image className="w-screen" src={babyshowershot2} alt="BabyShower photoshoot" />
+          <Image
+            className="w-screen"
+            src={babyshowershot2}
+            alt="BabyShower photoshoot"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <Image className="w-screen" src={remembrance} alt="Family photoshoot" />
+          <Image
+            className="w-screen"
+            src={remembrance}
+            alt="Family photoshoot"
+          />
         </SwiperSlide>
-       
       </Swiper>
 
       <div className="w-100%  absolute -z-[1] md:relative md:z-[1] justify-center m-auto h-[75rem]">
- 
         <h3 className="text-center  text-bold text-3xl mt-5 mb-10">
           A Glimpse Into My Artistic Narrative
         </h3>
@@ -106,7 +131,6 @@ export default function Home() {
           <div className=" md:relative   md:top-36 ">
             <div className="container">
               <Image
-               
                 className=" rounded-lg w-screen md:w-96 md:h-auto  image h-auto"
                 src={sal}
                 alt="Lifestlye Photography"
@@ -124,7 +148,6 @@ export default function Home() {
 
             <div className="container  ">
               <Image
-               
                 className="rounded-lg w-screen  mt-4   md:w-96 md:h-auto image h-auto"
                 src={baba}
                 alt="Event Photography"
@@ -133,7 +156,6 @@ export default function Home() {
                 <Link
                   className="text-4xl hover:underline text-bold"
                   href="/Events"
-                
                 >
                   Event
                 </Link>
@@ -143,7 +165,6 @@ export default function Home() {
           <div className="md:ml-6 ">
             <div className="container">
               <Image
-               
                 className="rounded-lg w-screen mt-2 md:mt-0 image md:w-96 md:h-auto h-auto"
                 src={brandphotoshoot}
                 alt="Studio photography"
@@ -160,7 +181,6 @@ export default function Home() {
 
             <div className="container">
               <Image
-               
                 className="rounded-lg w-screen  mt-4 md:w-96 md:h-auto image h-auto"
                 src={zoe2}
                 alt="Buisness photography"
@@ -176,7 +196,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <ContactLink/>
+        <ContactLink />
         <footer className=" mt-2 md:relative p-4  md:top-40 flex  bg-blue-300  ">
           <div className="justify-center self-center m-auto text-center w-auto ">
             <p>kennyStudios © 2023 by. All rights Reserved.</p>
@@ -190,7 +210,6 @@ export default function Home() {
             </a>
           </div>
         </footer>
-        
       </div>
     </>
   );
