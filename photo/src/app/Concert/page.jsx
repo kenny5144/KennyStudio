@@ -17,7 +17,8 @@ import Image from "next/image";
 
 export const metadata = {
   title: " Studio Photoshoots ",
-  description: "Discover Kenny Studios ",
+  description:
+    "Discover Kenny Studios-Capture the energy, emotion, and atmosphere of live music with dynamic concert photography. From electrifying stage performances to intimate backstage moments, I specialize in preserving the raw essence of every show with vibrant, high-quality images. ",
 };
 const Page = () => {
   return (
@@ -26,7 +27,8 @@ const Page = () => {
       <h1 className="text-center text-5xl mb-4">Concert photography </h1>
 
       <h2 className=" text-center   text-2xl mt-5 mb-10">
-        Birthday shoot, family shoot, headshots and so on{" "}
+        Capturing the energy and emotion of live music with vibrant,
+        high-quality images.
       </h2>
 
       <div className="grid  md:grid-cols-2 lg:grid-cols-3 gap-4">
