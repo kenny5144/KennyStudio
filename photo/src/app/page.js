@@ -11,6 +11,7 @@ import image1c from "../../public/img/homepageimages/image1c.jpg";
 import shots from "../../public/img/homepageimages/shots.jpg";
 import baba from "../../public/img/homepageimages/baba.jpg";
 import short from "../../public/img/events/short.jpg";
+import grad from "../../public/img/events/grad.jpg";
 import babyshowershot2 from "../../public/img/homepageimages/babyshowershot2.jpg";
 import thirtythbirdthay from "../../public/img/homepageimages/thirtythbirdthay.jpg";
 import thirtybirthday from "../../public/img/homepageimages/thirtybirthday.jpg";
@@ -54,6 +55,9 @@ export default function Home() {
         </SwiperSlide>
         <SwiperSlide>
           <Image className="w-screen" src={wedding} alt="Event photography" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image className="w-screen" src={grad} alt="Event photography" />
         </SwiperSlide>
         <SwiperSlide>
           <Image className="w-screen" src={short} alt="Event photography" />
@@ -201,13 +205,21 @@ export default function Home() {
           <div className="justify-center self-center m-auto text-center w-auto ">
             <p>kennyStudios © 2023 by. All rights Reserved.</p>
             <p>kennyStudio is located in Orange Nj and Shoots in NJ/NYC area</p>
-            <a
-              href="https://www.instagram.com/kennys_studio/"
-              className="  flex justify-center mt-3 text-3xl "
-              target="blank"
+            <div
+              className="flex
+             items-center gap-5 justify-center"
             >
-              {element}
-            </a>
+              <a
+                href="https://www.instagram.com/kennys_studio/"
+                className="  flex justify-center mt-3 text-3xl "
+                target="blank"
+              >
+                {element}
+              </a>
+              <Link className=" mt-3" href={"/Policy"}>
+                Policy
+              </Link>
+            </div>
           </div>
         </footer>
       </div>
