@@ -45,7 +45,7 @@ const Nav = () => {
           />
         </Link>
         <ul className="hidden md:flex  md:space-x-4">
-          <Link
+{/*           <Link
             href="/About"
             onClick={() => {
               setIsOpen(false);
@@ -58,7 +58,7 @@ const Nav = () => {
             }
           >
             About
-          </Link>
+          </Link> */}
           <li
             className={
               pathname === "/Lifestyle" ||
@@ -172,7 +172,7 @@ const Nav = () => {
            bg-white relative right-0 pt-7 "
         >
           <ul className=" gap-10  text-3xl flex flex-col  text-blue">
-            <Link
+{/*             <Link
               href="/About"
               className={
                 pathname === "/About"
@@ -185,7 +185,7 @@ const Nav = () => {
               }}
             >
               About
-            </Link>
+            </Link> */}
             <li
               className="text-orange-400 cursor-pointer text-xl"
               onClick={portfoliodrop}
